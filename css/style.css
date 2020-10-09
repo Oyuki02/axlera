@@ -1,0 +1,584 @@
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+@font-face {
+    font-family: "Metropolis";
+    src: url(../fonts/Metropolis/Metropolis-Medium.otf) format('opentype');
+}
+
+@font-face {
+    font-family: "Metropolis";
+    font-weight: 500;
+    src: url(../fonts/Metropolis/Metropolis-Bold.otf) format('opentype');
+}
+
+@font-face {
+    font-family: "Metropolis";
+    font-weight: 800;
+    src: url(../fonts/Metropolis/Metropolis-ExtraBold.otf) format('opentype');
+}
+
+@font-face {
+    font-family: "Metropolis";
+    font-style: italic;
+    src: url(../fonts/Metropolis/Metropolis-RegularItalic.otf) format('opentype');
+}
+
+@font-face {
+    font-family: "Metropolis";
+    font-weight: 100;
+    src: url(../fonts/Metropolis/Metropolis-Light.otf) format('opentype');
+
+}
+
+body {
+    font-family: "Metropolis";
+}
+
+.bg-nv {
+    height: 100px;
+    background: #A2869A 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 10px #00000036;
+    font-size: 1.15rem;
+    font-weight: 100;
+}
+
+.navbar-nav {
+    background: #A2869A 0% 0% no-repeat padding-box;
+}
+
+.nav-item {
+    padding: 0 1rem;
+}
+
+/* .nav-link{
+    color:#ffff !important;
+} */
+
+.btn-sesion {
+    color: #fff;
+    background: #6EC2B5 0% 0% no-repeat padding-box;
+    box-shadow: 2px 2px 2px #00000040;
+    border-radius: 7px;
+    font-size: 1.15rem;
+    font-weight: 100;
+}
+
+/**/
+.hero {
+    background-image: url("../img/HOME/W-FondoSeccion1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titulo {
+    color: #6C6C6C;
+}
+
+.subt-hero {
+    color: #A2869A;
+}
+.card{
+    max-width: 445px;
+}
+.card-text {
+    font-size: 1.4rem;
+    margin-bottom: .7rem;
+}
+
+.card-header {
+    background-color: #755C71;
+    color: #fff;
+}
+
+.card-body {
+    background-color: #6EC2B5;
+}
+.txt-rango{
+    font-size: 1.3rem;
+}
+.rangos {
+    padding: 0 4rem;
+}
+
+.txt-resultado {
+    font-size: 1.4rem;
+    font-weight: 800;
+    margin-bottom: .8rem;
+}
+
+.txt-resultado2 {
+    font-size: 1.1rem;
+    font-weight: 800;
+    margin-bottom: .7rem;
+}
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    padding: 0;
+}
+
+.card-footer {
+    background-color: #A2869A;
+    color: #2D2D2D;
+    font-size: 1.5rem;
+    padding-bottom: 1.8rem;
+}
+
+.btn-amortizacion {
+    background: #20DC22;
+    border-color: #20DC22;
+    box-shadow: 2px 2px 2px #00000040;
+    border-radius: 7px;
+    color: white;
+    font-size: .95rem;
+    width: 233px;
+    height: 35px;
+}
+
+/**/
+.servicios {
+    background-image: url("../img/HOME/W-FondoimagoAxelerSeccion2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 450px;
+
+}
+
+h2.titulo-sections {
+    font-size: 2.90rem;
+    font-weight: 800;
+}
+
+.color-1 {
+    color: #755C71;
+}
+
+.color-2 {
+    color: #6EC2B5;
+}
+
+.color-3 {
+    color: #F7A821;
+}
+
+p {
+    font-size: 1.65rem;
+}
+
+/**/
+
+.salud-f {
+    background-image: url("../img/HOME/W-Fondo-Seccion-3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card2 {
+    background: #FFFFFF;
+    border-radius: 33px;
+    padding: 1rem;
+    max-width: 469px;
+}
+
+.form-group1 {
+    padding: 0 1rem 1rem;
+    font-size: 1.25rem;
+    color: #6EC2B5;
+}
+
+.input-info {
+    background: #6DC0B3;
+    border-radius: 10px;
+    opacity: 0.23;
+}
+
+.btn-inf {
+    background: #20DC22;
+    box-shadow: 2px 2px 2px #00000040;
+    border-color: #20DC22;
+    border-radius: 7px;
+    font-size: 16px;
+    width: 83px;
+    height: 31px;
+    color: white;
+}
+
+/**/
+.credito {
+    background-image: url("../img/HOME/W-FondoSeccion4.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.txt-cred{
+    font-size: 1.65rem;
+}
+/**/
+.funcionamiento {
+    background: transparent linear-gradient(130deg, #DDF1ED 0%, #DDF1ED 50%, #DDF1ED 100%);
+}
+
+.card-funcionamiento {
+    background: #FFFFFF;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 33px;
+}
+
+/**/
+.testimonios {
+    background-image: url("../img/HOME/W-Fondo-Seccion-6.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-testimonio {
+    background: #FFFFFF;
+    border-radius: 33px;
+    padding: 2rem;
+    max-width: 511px;
+    height: 236px;
+}
+
+.card-testimonio p {
+    color: #755C71;
+    font-style: italic;
+}
+
+.btn-registrar {
+    background: #20DC22;
+    box-shadow: 2px 2px 2px #00000040;
+    border-color: #20DC22;
+    border-radius: 7px;
+    font-size: 16px;
+    color: white;
+    width: 225px;
+    height: 50px;
+    font-size: 1.15rem;
+}
+
+/**/
+.axelera-s7 {
+    background-image: url("../img/HOME/W-FondoSeccion7.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/**/
+.baner-axelera {
+    background-color: #A2869A;
+}
+
+.txt-baner-axelera {
+    font-size: 2.7rem;
+    font-weight: 800;
+}
+
+/**/
+.legales {
+    background-color: #F8F8F9;
+}
+
+.bold {
+    font-weight: 500;
+}
+
+.txt-legales {
+    font-size: 1.1rem;
+    color: #6C6C6C;
+    line-height: 2rem;
+    margin-bottom: .2rem;
+}
+
+.logos-lgls {
+    height: 57px;
+    padding: 0 .8rem;
+}
+
+.legales a {
+    color: #6C6C6C;
+}
+
+.footer {
+    background-color: #755C71;
+}
+
+.txt-footer {
+    font-size: 1.1rem;
+    color: #fff;
+    text-decoration: underline;
+    font-weight: 100;
+}
+
+.txt-footer2 {
+    font-size: 1.1rem;
+    color: #fff;
+    font-weight: 100;
+}
+
+.padd-iconos-r {
+    padding-bottom: .5rem;
+}
+
+.iconos-redes {
+    color: #fff;
+    width: 40px;
+}
+
+.iconos-redes2 {
+    width: 38px;
+}
+
+.pdx-6 {
+    padding-left: 4.5rem;
+    padding-right: 4.5rem;
+}
+
+/*velocash*/
+
+.hero-velocash {
+    background-image: url("../img/VELOCASH/WFondoVelocash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.txt-h-v {
+    font-size: 1.7rem;
+}
+
+.btn-velocash {
+    width: 241px;
+    height: 50px;
+    background: #20DC22;
+    border-color: #20DC22;
+    box-shadow: 2px 2px 2px #00000040;
+    border-radius: 7px;
+    color: #fff;
+    font-size: 1.15rem;
+}
+
+/**/
+.baner-v1 {
+    background-image: url("../img/VELOCASH/W-FondoimagoAxelera.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.txt-banerv1 {
+    color: #F7A821;
+}
+
+.txt-req-v {
+    font-size: 2.4rem;
+    font-weight: 600;
+    padding-bottom: 1.5rem;
+}
+
+.list-item {
+    font-size: 1.5rem;
+}
+
+.rectangulos {
+    width: 360px;
+}
+
+ul li {
+    line-height: 2.5rem;
+}
+
+.txt-cat {
+    font-size: 1rem;
+}
+
+/*personal*/
+
+.hero-personal {
+    background-image: url("../img/PERSONAL/W-FondoPersonal.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pd-r {
+    padding-right: 2.5rem;
+}
+
+.baner-p1 {
+    background-image: url("../img/PERSONAL/W-FondoimagoAxelera2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.txt-banerp1 {
+    color: #6EC2B5;
+}
+
+/**/
+.txt-bullets-p {
+    position: absolute;
+    top: 49%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    color: #fff;
+}
+
+.txt-bllts-p-dos {
+    position: absolute;
+    top: 49%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 64%;
+    color: #fff;
+}
+
+.txt-bllts-p-tres {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    color: #fff;
+}
+
+/*modals*/
+/*iniciar sesión*/
+.modal-content {
+    border-radius: 33px;
+    box-shadow: 0px 3px 6px #00000029;
+    border: none;
+}
+
+.modal-header {
+    border-bottom: none;
+}
+
+.form-control {
+    background-color: rgba(162, 134, 154, 0.23);
+    border-radius: 10px;
+
+}
+
+.form-body {
+    padding: 0 4rem;
+}
+
+.txt-small {
+    margin-bottom: 0;
+    margin-left: 5rem;
+
+}
+
+.btn-modal-sesion {
+    width: 350px;
+    height: 50px;
+    background: #20DC22;
+    box-shadow: 2px 2px 2px #00000040;
+    border-radius: 7px;
+    color: #fff;
+    font-size: 1.125rem;
+}
+
+.verde {
+    color: #20DC22;
+}
+
+input,
+textarea {
+    color: #fff;
+    font-family: FontAwesome, "Open Sans", Verdana, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+}
+
+.txt-exito {
+    font-size: 1.75rem;
+}
+
+.txt-2 {
+    font-size: 1.25rem;
+}
+
+.form-contacto {
+    background-color: #fff;
+}
+
+.btn-enviar {
+    width: 163px;
+    height: 50px;
+    background: #20DC22;
+    box-shadow: 2px 2px 2px #00000040;
+    border-radius: 7px;
+    color: #fff;
+    font-size: 1.125rem;
+
+}
+
+h3 {
+    font-size: 1.8rem;
+}
+
+.alert {
+    display: none;
+}
+
+.legales-movil {
+    display: none;
+}
+
+/**/
+
+@media (max-width: 375px) {
+
+    .btn-amortizacion {
+        font-size: .8rem;
+        width: inherit;
+
+    }
+
+    h2.titulo-sections {
+        font-size: 2.20rem;
+        font-weight: 800;
+    }
+    .txt-cred{
+    font-size: 1.1rem;
+}
+    .txt-baner-axelera {
+        font-size: 2rem;
+        font-weight: 800;
+    }
+
+    .media {
+        display: grid;
+    }
+
+    .legales {
+        display: none;
+    }
+
+    .legales-movil {
+        display: flex;
+    }
+
+    .logos-lgls {
+        height: 57px;
+        padding: 0 .8rem .9rem;
+    }
+}
